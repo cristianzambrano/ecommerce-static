@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - TechStore</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="TechStore Logo">
+                <h1>TechStore</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="products.html" class="active">Productos</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="cart.html">Carrito</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Nuestros Productos</h1>
+                <p>Explora nuestra amplia gama de productos tecnológicos</p>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="container">
+                <div class="filter-bar">
+                    <select id="categoryFilter">
+                        <option value="all">Todas las categorías</option>
+                        <option value="laptops">Laptops</option>
+                        <option value="mice">Mouses</option>
+                        <option value="keyboards">Teclados</option>
+                        <option value="accessories">Accesorios</option>
+                    </select>
+                </div>
+
+                <div class="products-grid">
+                    <div class="product-card" data-category="laptops">
+                        <img src="img/products/prod1.jpg" alt="Laptop Gaming">
+                        <h3>Laptop Gaming Pro</h3>
+                        <p class="description">Laptop de alto rendimiento para gaming y trabajo profesional</p>
+                        <p class="price">$899.99</p>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="mice">
+                        <img src="img/products/prod2.jpg" alt="Mouse Inalámbrico">
+                        <h3>Mouse Inalámbrico Ergonómico</h3>
+                        <p class="description">Mouse inalámbrico con diseño ergonómico y sensor de alta precisión</p>
+                        <p class="price">$29.99</p>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="keyboards">
+                        <img src="img/products/prod3.jpg" alt="Teclado Mecánico">
+                        <h3>Teclado Mecánico RGB</h3>
+                        <p class="description">Teclado mecánico con iluminación RGB y switches personalizables</p>
+                        <p class="price">$79.99</p>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="laptops">
+                        <img src="img/products/prod1.jpg" alt="Laptop Ultrabook">
+                        <h3>Laptop Ultrabook</h3>
+                        <p class="description">Laptop ligera y potente para profesionales en movimiento</p>
+                        <p class="price">$1,199.99</p>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="mice">
+                        <img src="img/products/prod2.jpg" alt="Mouse Gaming">
+                        <h3>Mouse Gaming RGB</h3>
+                        <p class="description">Mouse gaming con iluminación RGB y DPI ajustable</p>
+                        <p class="price">$49.99</p>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="keyboards">
+                        <img src="img/products/prod3.jpg" alt="Teclado Inalámbrico">
+                        <h3>Teclado Inalámbrico Slim</h3>
+                        <p class="description">Teclado inalámbrico delgado y silencioso</p>
+                        <p class="price">$59.99</p>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechStore</h3>
+                    <p>Tu tienda de tecnología de confianza</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="pages/terms.html">Términos y Condiciones</a></li>
+                        <li><a href="pages/privacy.html">Privacidad</a></li>
+                        <li><a href="pages/help.html">Ayuda</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: info@techstore.com</p>
+                    <p>Tel: +1 234 567 890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechStore. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
